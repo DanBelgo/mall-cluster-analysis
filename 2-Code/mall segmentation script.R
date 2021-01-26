@@ -85,7 +85,7 @@ sqrt(etaSquared(aov(annual_income~k_6, z_df)))
 sqrt(etaSquared(aov(score~k_6, z_df)))
 
 #5 groups seem to be the best fit
-
+#
 ##Profile graphs
 
 summaries_k4 = describeBy(z_df[,1:3],z_df$k_4)
